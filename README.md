@@ -22,11 +22,11 @@ cd ваш-репозиторий
 javac -d bin src/*.java
 
 Запуск
-Запустите сервер:
+4. Запустите сервер:
 
 java -classpath bin Server
 
-Запустите клиентское приложение:
+5. Запустите клиентское приложение:
 
 java -classpath bin Client
 
