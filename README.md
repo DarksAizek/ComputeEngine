@@ -13,23 +13,27 @@
 git clone https://github.com/ваш-username/ваш-репозиторий.git
 
 Перейдите в директорию проекта:
+
 cd ваш-репозиторий
 
 Соберите проект с помощью команды:
+
 javac -d bin src/*.java
 
 Запуск
 Запустите сервер:
+
 java -classpath bin Server
 
 Запустите клиентское приложение:
+
 java -classpath bin Client
 
 Пример использования
+
 // Создаем и выполняем задачу
 Task<Integer> task = new SomeTask();
 int result = compute.executeTask(task);
-
 System.out.println("Результат: " + result);
 
 ## Лицензия
